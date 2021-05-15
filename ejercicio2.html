@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio</title>
+</head>
+<body>
+	
+	<h1>Curso JSON</h1>
+	
+	<div id="container"></div>
+	<div id="container2"></div>
+    <div id="container3"></div>
+
+	<script type="text/javascript">
+	    var object = {"name":"joel","hobbie":"futbol"};
+	    var arrayWeed = ["monday","tuesday","wednesday","thurday","friday","saturday","sunday"];
+	    var arrayObjects =[
+        {
+        "name":"vaneska",
+        "skill":"cook"
+        },
+        {
+        "name":"yheisson",
+        "skill":"design"
+        }
+	    ];
+
+	    document.getElementById("container").innerHTML = object.hobbie;
+	    document.getElementById("container2").innerHTML = arrayWeed[4];
+	    document.getElementById("container3").innerHTML = arrayObjects[1].name;
+	</script>
+
+</body>
+</html>
